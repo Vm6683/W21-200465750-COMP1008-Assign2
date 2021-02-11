@@ -1,3 +1,6 @@
+import java.util.*;
+import java.util.ArrayList;
+
 public class Student {
 
     private String firstName;
@@ -38,5 +41,12 @@ public class Student {
 
     public int getstudentNumber() {
         return studentNumber;
+    }
+
+    {
+        ArrayList<String> typeOfInterests = new ArrayList<String>();
+        typeOfInterests.add("Biking");
+        typeOfInterests.add("Sking");
+        typeOfInterests.add("Dancing");
     }
 }
